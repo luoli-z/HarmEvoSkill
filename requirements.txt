@@ -1,0 +1,8 @@
+openai>=1.0.0
+tqdm>=4.65.0
+scikit-learn>=1.2.0
+numpy>=1.23.0
+pillow>=9.0.0
+
+# Optional, only needed for CLIP-based surface retrieval.
+sentence-transformers>=2.2.2
