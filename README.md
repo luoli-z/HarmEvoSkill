@@ -63,12 +63,6 @@ python -m venv skill_memory_env
 pip install -r requirements.txt
 ```
 
-If a Conda environment file is provided, the environment can also be created with:
-
-```bash
-conda env create -f environment.yml
-conda activate skill-memory
-```
 
 ## API Configuration
 
@@ -88,7 +82,6 @@ $env:OPENAI_BASE_URL="https://api.openai.com/v1"
 
 Model aliases and default endpoints are configured in `framework/config.py`. If a custom endpoint uses a different model name, update the corresponding model alias before running experiments.
 
-Do not commit API keys, endpoint secrets, local cache files, or raw outputs to the repository.
 
 ## Dataset Preparation
 
